@@ -1,0 +1,14 @@
+Metric,Value
+Missing_%_PassengerId,0.0
+Missing_%_Survived,0.0
+Missing_%_Pclass,0.0
+Missing_%_Name,0.0
+Missing_%_Sex,0.0
+Missing_%_Age,19.865319865319865
+Missing_%_SibSp,0.0
+Missing_%_Parch,0.0
+Missing_%_Ticket,0.0
+Missing_%_Fare,0.0
+Missing_%_Cabin,77.10437710437711
+Missing_%_Embarked,0.22446689113355783
+Outliers_Age,28.0
