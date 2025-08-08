@@ -1,10 +1,10 @@
 # Azure Data Quality Dashboard
 
-In an effort to replicate some similar work I have done at previous employers without using company data or IP, I built this project as a data quality dashboard using the Titanic dataset from Kaggle, analyzing missing values, duplicates, and outliers.
+In an effort to replicate similar work I have done, I built this data quality dashboard project using the Titanic dataset from Kaggle. It analyzes missing values, duplicates, and outliers.
 
 ## Project Details
 - **Dataset**: Titanic (train.csv), ~891 rows.
-- **Tools**: Python, Pandas, Plotly, GitHub.
+- **Tools**: Python, Pandas, Plotly, GitHub, Azure Static Web Apps.
 - **Metrics**:
   - Missing Values: e.g., ~19.8% in Age, ~77.1% in Cabin.
   - Duplicates: 0 full-row duplicates.
@@ -16,11 +16,9 @@ In an effort to replicate some similar work I have done at previous employers wi
 2. Install dependencies: `pip install pandas plotly`.
 3. Run `python data_quality.py` to generate metrics and charts.
 
-## Notes
-- Initial dataset (Air Quality) had low variance, leading to a switch to Titanic.
-- Charts are in the `templates/` folder.
-- `.DS_Store` is a macOS metadata file, safely ignorable.
+## Deployment
+- Live at: [Titanic Dashboard](https://gray-island-05a9a2e10.1.azurestaticapps.net)
 
-## Future Work
-- Deploy to Azure (Week 3).
-- Add interactive features (Week 5).
+## Notes
+- Initial dataset (Air Quality) had low variance, leading to a switch to Titanic, dataset was provided by Kaggle.
+- Charts are in the `templates/` folder.
