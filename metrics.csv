@@ -12,3 +12,6 @@ Missing_%_Fare,0.0
 Missing_%_Cabin,77.10437710437711
 Missing_%_Embarked,0.22446689113355783
 Outliers_Age,28.0
+Outliers_SibSp,46.0
+Outliers_Parch,95.0
+Outliers_Fare,38.0
